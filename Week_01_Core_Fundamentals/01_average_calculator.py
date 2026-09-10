@@ -15,7 +15,14 @@ TODO:
 """
 
 def main():
-    
+    numin = int(input("How many numbers are you going to find the mean off?"))
+    total = 0
+    for x in range (numin):
+        num = int(input("Input a number"))
+        total = total + num
+    mean = total/numin
+    print(mean)
+
     pass
 
 
