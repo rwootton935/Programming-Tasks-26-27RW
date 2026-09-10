@@ -15,13 +15,7 @@ TODO:
 """
 
 def main():
-    import statistics 
-    numin = int(input("How many numbers are you going to find the mean off?"))
-    numbers = []
-    for x in range (numin):
-        num = int(input("Input a number"))
-        numbers.append(num)
-    print(statistics.mean(numbers))
+    
     pass
 
 
