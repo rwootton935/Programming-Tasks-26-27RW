@@ -22,6 +22,7 @@ def main():
         total = total + num
     mean = total/numin
     print(mean)
+    print()
 
     pass
 
