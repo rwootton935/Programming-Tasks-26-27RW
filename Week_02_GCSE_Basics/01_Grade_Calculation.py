@@ -18,6 +18,20 @@ def main():
     # TODO: Write demonstration/testing code
     # If you want to delete all the code here and work just with a blank file go ahead, remember anything under the if __name__=="__main__":
     # will only run if this module is being run directly. So used this subprocedure to carry out testing if it is going to be an imported file.
+    def gradecalc(score):
+        if score > 100:
+            print("The maximum marks achievable is 100")
+        elif score > 79:
+            print("Grade A")
+        elif score > 59:
+            print("Grade B")
+        elif score > 39:
+            print("Grade C")
+        else:
+            print("Grade D")
+
+    score = int(input("What is your score?"))
+    gradecalc(score)
     pass
 
 
